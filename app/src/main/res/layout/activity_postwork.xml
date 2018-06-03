@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/aqaqaaaaqaqaqaq"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#9009a3dc">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/postMessageActivity_button_exit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#7ab800"
+            app:fb_focusColor="#109bd823"
+            app:fb_fontIconResource="&#xf053;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="发布"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqaqaaaaqaqaqaq"
+        android:background="#666">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:mtf_animationDuration="500"
+                app:mtf_cardCollapsedHeight="4dp"
+                app:mtf_image="@mipmap/ic_launcher_round"
+                app:mtf_labelColor="#000000"
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9009a3dc"
+                    android:hint="职位名称"
+                    android:lineSpacingExtra="3dp"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:mtf_animationDuration="500"
+                app:mtf_cardCollapsedHeight="4dp"
+                app:mtf_image="@mipmap/ic_launcher_round"
+                app:mtf_labelColor="#000000"
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9009a3dc"
+                    android:hint="公司名称"
+                    android:lineSpacingExtra="3dp"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:mtf_animationDuration="500"
+                app:mtf_cardCollapsedHeight="4dp"
+                app:mtf_image="@mipmap/ic_launcher_round"
+                app:mtf_labelColor="#000000"
+                app:mtf_openKeyboardOnFocus="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#9009a3dc"
+                    android:hint="工作地点"
+                    android:lineSpacingExtra="3dp"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="26dp"
+                android:text="职位描述"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#96ffffff"
+                android:gravity="start" />
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/postMessageActivity_button_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginTop="20dp"
+                    app:fb_borderColor="#090b0b"
+                    app:fb_borderWidth="0dp"
+                    app:fb_defaultColor="#09a3dc"
+                    app:fb_focusColor="#660a0a07"
+                    app:fb_fontIconResource="&#xf0aa;"
+                    app:fb_fontIconSize="40dp"
+                    app:fb_ghost="false"
+                    app:fb_iconPaddingRight="10dp"
+                    app:fb_iconPosition="left"
+                    app:fb_radius="40dp"
+                    app:fb_text="提交"
+                    app:fb_textColor="#FFFFFF"
+                    app:fb_textSize="16dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/postMessageActivity_loadingView"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:indicatorColor="#09a3dc"
+        app:indicatorName="PacmanIndicator" />
+</RelativeLayout>

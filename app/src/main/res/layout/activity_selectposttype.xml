@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#9009a3dc">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/selectPostTypeActivity_button_exit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#7ab800"
+            app:fb_focusColor="#109bd823"
+            app:fb_fontIconResource="&#xf053;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="选择"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/selectPostTypeActivity_button_getWork"
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:fb_borderColor="#090b0b"
+                app:fb_borderWidth="0dp"
+                app:fb_defaultColor="#9009a3dc"
+                app:fb_focusColor="#109bd823"
+                app:fb_fontIconResource="&#xf0c0;"
+                app:fb_fontIconSize="50dp"
+                app:fb_ghost="true"
+                app:fb_iconPaddingRight="3dp"
+                app:fb_iconPosition="top"
+                app:fb_radius="0dp"
+                app:fb_text="我要找职位"
+                app:fb_textColor="#000000"
+                app:fb_textSize="16dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/selectPostTypeActivity_button_postWork"
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:fb_borderColor="#090b0b"
+                app:fb_borderWidth="0dp"
+                app:fb_defaultColor="#9009a3dc"
+                app:fb_focusColor="#109bd823"
+                app:fb_fontIconResource="&#xf007;"
+                app:fb_fontIconSize="40dp"
+                app:fb_ghost="true"
+                app:fb_iconPaddingRight="3dp"
+                app:fb_iconPosition="top"
+                app:fb_radius="0dp"
+                app:fb_text="我要发布职位"
+                app:fb_textColor="#000000"
+                app:fb_textSize="16dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

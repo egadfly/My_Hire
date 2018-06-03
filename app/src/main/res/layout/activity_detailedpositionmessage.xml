@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/detailedPositionActivity_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/detailedPositionActivity_button_collection"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#09a3dc"
+            app:fb_focusColor="#660a0a07"
+            app:fb_fontIconResource=""
+            app:fb_fontIconSize="25dp"
+            app:fb_ghost="false"
+            app:fb_iconPaddingRight="10dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text="收藏"
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="16dp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#66a7a7c9" />
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/detailedPositionActivity_button_apply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#09a3dc"
+            app:fb_focusColor="#660a0a07"
+            app:fb_fontIconSize="40dp"
+            app:fb_ghost="false"
+            app:fb_iconPaddingRight="10dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text="报名参加"
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/detailedPositionActivity_bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#96ffffff"
+            android:orientation="vertical">
+
+            <!--actionbar-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#9009a3dc">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/detailedPositionActivity_button_exit"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="0dp"
+                    app:fb_borderColor="#090b0b"
+                    app:fb_borderWidth="0dp"
+                    app:fb_defaultColor="#7ab800"
+                    app:fb_focusColor="#109bd823"
+                    app:fb_fontIconResource="&#xf053;"
+                    app:fb_fontIconSize="20dp"
+                    app:fb_ghost="true"
+                    app:fb_iconPaddingRight="0dp"
+                    app:fb_iconPosition="left"
+                    app:fb_radius="0dp"
+                    app:fb_text=""
+                    app:fb_textColor="#FFFFFF"
+                    app:fb_textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="详情页" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#66a7a7c9" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="苹果手机APP试玩在家随时可做"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="50"
+                        android:textColor="#c91a1a"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="元/小时"
+                        android:textColor="#c91a1a"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="日结 | 其他 | 49人"
+                    android:textColor="#000"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#66a7a7c9" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="职位描述"
+                    android:textSize="16sp" />
+
+                <com.chaychan.library.ExpandableLinearLayout
+                    android:id="@+id/ell_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:arrowDownImg="@mipmap/arrow_down_grey"
+                    app:defaultItemCount="1"
+                    app:expandText="查看更多"
+                    app:hideText="收起"
+                    app:useDefaultBottom="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="9dp"
+                        android:text="@string/aa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="9dp"
+                        android:text="@string/bb" />
+
+                </com.chaychan.library.ExpandableLinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#66a7a7c9" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="工作地点"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="不限时间地点，随时可做" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#66a7a7c9" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="公司名称"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="xxxx文化传播有限公司" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#66a7a7c9" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="防骗警示：未标明收费的职位不会收取任何费用，若商家要求缴纳费用或押金，请提高警惕并第一时间向我们举报！" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/detailedPositionActivity_loadingView"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:indicatorColor="#09a3dc"
+        app:indicatorName="PacmanIndicator" />
+</RelativeLayout>

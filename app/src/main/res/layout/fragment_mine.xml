@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/mine_background">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/main_circleImageView_headPortrait"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="1dp" />
+
+
+
+    </RelativeLayout>
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/mineFragment_button_collection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        app:fb_borderColor="#090b0b"
+        app:fb_borderWidth="1dp"
+        app:fb_defaultColor="#7ab800"
+        app:fb_focusColor="#9bd823"
+        app:fb_fontIconResource="&#xf02e;"
+        app:fb_fontIconSize="20dp"
+        app:fb_ghost="false"
+        app:fb_iconPaddingRight="30dp"
+        app:fb_iconPosition="left"
+        app:fb_radius="0dp"
+        app:fb_text="收藏"
+        app:fb_textColor="#FFFFFF"
+        app:fb_textSize="14dp" />
+
+
+</LinearLayout>

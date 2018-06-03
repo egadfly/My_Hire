@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/messageFragment_loadingView"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:indicatorColor="#09a3dc"
+        app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#9009a3dc">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="消息"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/messageFragment_button_postMessage"
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:fb_borderColor="#090b0b"
+                app:fb_borderWidth="0dp"
+                app:fb_defaultColor="#9009a3dc"
+                app:fb_focusColor="#109bd823"
+                app:fb_fontIconResource="&#xf067;"
+                app:fb_fontIconSize="50dp"
+                app:fb_ghost="true"
+                app:fb_iconPaddingRight="3dp"
+                app:fb_iconPosition="top"
+                app:fb_radius="0dp"
+                app:fb_text="发布"
+                app:fb_textColor="#000000"
+                app:fb_textSize="16dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/messageFragment_button_openMessage"
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:fb_borderColor="#090b0b"
+                app:fb_borderWidth="0dp"
+                app:fb_defaultColor="#9009a3dc"
+                app:fb_focusColor="#109bd823"
+                app:fb_fontIconResource="&#xf0e0;"
+                app:fb_fontIconSize="40dp"
+                app:fb_ghost="true"
+                app:fb_iconPaddingRight="3dp"
+                app:fb_iconPosition="top"
+                app:fb_radius="0dp"
+                app:fb_text="消息"
+                app:fb_textColor="#000000"
+                app:fb_textSize="16dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#66a7a7c9" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:text="通知："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:background="#e0e0e0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <com.taobao.library.VerticalBannerView
+            android:background="@null"
+            android:id="@+id/banner_03"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            app:animDuration="900"
+            app:gap="3000"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</RelativeLayout>

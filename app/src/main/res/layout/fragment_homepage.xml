@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--定位于搜索-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#9009a3dc"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/homePageFragment_button_location"
+            android:layout_width="84dp"
+            android:layout_height="42dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#9009a3dc"
+            app:fb_focusColor="#109bd823"
+            app:fb_fontIconResource="&#xf078;"
+            app:fb_fontIconSize="12dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="right"
+            app:fb_radius="0dp"
+            app:fb_text="湘潭"
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="16dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="#66f0f0f0" />
+
+
+        <com.lmntrx.livin.library.droidawesome.DroidAwesomeAutoCompleteTextView
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="&#xf002;搜索"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#5009a3dc"
+            app:fb_focusColor="#440a0a07"
+            app:fb_fontIconResource="&#xf054;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="10dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="1dp" />
+
+    </LinearLayout>
+
+    <com.xiaonuo.yure.ui.widget.WaveSwipeRefreshLayout
+        android:id="@+id/homePage_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:id="@+id/homePageFragment_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--轮播图-->
+                    <RelativeLayout
+                        android:id="@+id/homePageFragment_layout_viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp">
+
+
+                        <com.xiaonuo.yure.ui.vPage.BezierViewPager
+                            android:id="@+id/homePageFragment_viewPage_picturePlay"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:overScrollMode="always" />
+
+
+                        <com.xiaonuo.yure.ui.vPage.BezierRoundView
+                            android:id="@+id/homePageFragment_roundView_bezRound"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            app:color_bez="#fffe626d"
+                            app:color_stroke="#ffaaaaaa"
+                            app:color_touch="#fff"
+                            app:radius="6dp" />
+                    </RelativeLayout>
+
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="3dp"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <mehdi.sakout.fancybuttons.FancyButton
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                app:fb_borderColor="#090b0b"
+                                app:fb_borderWidth="0dp"
+                                app:fb_defaultColor="#5009a3dc"
+                                app:fb_focusColor="#660a0a07"
+                                app:fb_fontIconResource="&#xf015;"
+                                app:fb_fontIconSize="40dp"
+                                app:fb_ghost="false"
+                                app:fb_iconPaddingRight="10dp"
+                                app:fb_iconPosition="left"
+                                app:fb_radius="16dp"
+                                app:fb_text="在家兼职"
+                                app:fb_textColor="#FFFFFF"
+                                app:fb_textSize="16dp" />
+
+                            <View
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent" />
+
+                            <mehdi.sakout.fancybuttons.FancyButton
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                app:fb_borderColor="#090b0b"
+                                app:fb_borderWidth="0dp"
+                                app:fb_defaultColor="#5009a3dc"
+                                app:fb_focusColor="#660a0a07"
+                                app:fb_fontIconResource="&#xf008;"
+                                app:fb_fontIconSize="40dp"
+                                app:fb_ghost="false"
+                                app:fb_iconPaddingRight="10dp"
+                                app:fb_iconPosition="left"
+                                app:fb_radius="16dp"
+                                app:fb_text="随时兼职"
+                                app:fb_textColor="#FFFFFF"
+                                app:fb_textSize="16dp" />
+
+                            <View
+                                android:layout_width="20dp"
+                                android:layout_height="match_parent" />
+
+                            <mehdi.sakout.fancybuttons.FancyButton
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                app:fb_borderColor="#090b0b"
+                                app:fb_borderWidth="0dp"
+                                app:fb_defaultColor="#5009a3dc"
+                                app:fb_focusColor="#660a0a07"
+                                app:fb_fontIconResource="&#xf0d0;"
+                                app:fb_fontIconSize="40dp"
+                                app:fb_ghost="false"
+                                app:fb_iconPaddingRight="10dp"
+                                app:fb_iconPosition="left"
+                                app:fb_radius="16dp"
+                                app:fb_text="高薪培训"
+                                app:fb_textColor="#FFFFFF"
+                                app:fb_textSize="16dp" />
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#66a7a7c9" />
+
+                    <!--招聘信息-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="517dp">
+
+                        <LinearLayout
+                            android:id="@+id/aaaadasdaa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.ogaclejapan.smarttablayout.SmartTabLayout
+                                android:id="@+id/homePage_RecruitmentViewPagerTab"
+                                android:layout_width="0dp"
+                                android:layout_height="48dp"
+                                android:layout_weight="1"
+                                app:stl_clickable="true"
+                                app:stl_defaultTabBackground="?attr/selectableItemBackground"
+                                app:stl_defaultTabTextAllCaps="true"
+                                app:stl_defaultTabTextColor="#FC000000"
+                                app:stl_defaultTabTextHorizontalPadding="16dp"
+                                app:stl_defaultTabTextMinWidth="0dp"
+                                app:stl_defaultTabTextSize="14sp"
+                                app:stl_distributeEvenly="false"
+                                app:stl_dividerColor="#4D000000"
+                                app:stl_dividerThickness="1dp"
+                                app:stl_drawDecorationAfterTab="false"
+                                app:stl_indicatorAlwaysInCenter="false"
+                                app:stl_indicatorColor="#40C4FF"
+                                app:stl_indicatorCornerRadius="2dp"
+                                app:stl_indicatorGravity="bottom"
+                                app:stl_indicatorInFront="false"
+                                app:stl_indicatorInterpolation="smart"
+                                app:stl_indicatorThickness="4dp"
+                                app:stl_indicatorWidth="auto"
+                                app:stl_indicatorWithoutPadding="false"
+                                app:stl_overlineColor="#4D000000"
+                                app:stl_overlineThickness="0dp"
+                                app:stl_titleOffset="24dp"
+                                app:stl_underlineColor="#4D000000"
+                                app:stl_underlineThickness="1dp" />
+
+                            <RelativeLayout
+                                android:layout_width="48dp"
+                                android:layout_height="48dp">
+
+                                <Button
+                                    android:id="@+id/homePage_button_addPage"
+                                    android:layout_width="48dp"
+                                    android:layout_height="30dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:background="#70f0f0f0"
+                                    android:shadowColor="#000"
+                                    android:shadowDx="2"
+                                    android:text="＋"
+                                    android:textColor="#000"
+                                    android:textSize="16sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="#4D000000" />
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/homePage_RecruitmentViewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/aaaadasdaa" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+    </com.xiaonuo.yure.ui.widget.WaveSwipeRefreshLayout>
+
+</LinearLayout>
+
