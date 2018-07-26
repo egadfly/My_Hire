@@ -362,8 +362,10 @@ public class HomePageFragment extends Fragment {
 
     private void initImgList() {
         imgList = new ArrayList<>();
-        imgList.add("http://scimg.jb51.net/allimg/170227/102-1F22G00T5b7.jpg");
-        imgList.add("http://scimg.jb51.net/allimg/170908/106-1FZQA0232X.jpg");
+        imgList.add("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2410028758,1593417090&fm=27&gp=0.jpg");
+        imgList.add("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&s" +
+                "ec=1532586451980&di=221e5bd267e5f9617590fba8c1d32570&imgtype=0&s" +
+                "rc=http%3A%2F%2Fpic1.zhimg.com%2Fv2-ebd5359c735c4d3416b590f33a15fe73_1200x500.jpg");
         imgList.add("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u" +
                 "=1456709294,3742664892&fm=27&gp=0.jpg");
         imgList.add("http://img1.gtimg.com/comic/pics/hv1/130/173/2101/136661770.jpg");
