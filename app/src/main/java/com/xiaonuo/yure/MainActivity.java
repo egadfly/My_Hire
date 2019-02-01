@@ -15,7 +15,6 @@ import java.util.List;
 
 import eu.long1.spacetablayout.SpaceTabLayout;
 
-import static com.xiaonuo.yure.R.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(layout.activity_main);
+        setContentView(R.layout.activity_main);
 
 
         List<Fragment> fragmentList = new ArrayList<>();
@@ -32,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         fragmentList.add(new MessageFragment());
         fragmentList.add(new MineFragment());
 
-        ViewPager viewPager = (ViewPager) findViewById(id.viewPager);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setOffscreenPageLimit(3);
-        tabLayout = findViewById(id.spaceTabLayout);
+        tabLayout = findViewById(R.id.spaceTabLayout);
 
         //we need the savedInstanceState to get the position
         tabLayout.initialize(viewPager, getSupportFragmentManager(),
