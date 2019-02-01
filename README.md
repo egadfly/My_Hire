@@ -13,7 +13,71 @@
 
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_1.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/1.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/2.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/3.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/4.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/5.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/6.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/7.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/8.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/9.png" alt="Sample"  width="432" height="768">
     <p align="center">
         <em></em>
     </p>
