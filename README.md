@@ -23,7 +23,7 @@
     <img src="https://github.com/yanxiaonuo/My_Hire/blob/master/Screenshot/2.png" alt="Sample"  width="432" height="768">
     <p align="center">
         <em></em>
-    </p>
+    </p>    
 </p>
 
 
